@@ -17,6 +17,7 @@ class GameLogic:
     def calculate_score(values):
         score = 0
         counts = Counter(values)
+        #print(len(counts))
         pair_counter = 0
 
         for die in counts:
@@ -24,7 +25,7 @@ class GameLogic:
             if counts[die] == 2:
                 pair_counter += 1
             if pair_counter < 3 and len(counts) < 6:
-                if die == 1:
+                if die == "1":
                     if counts[die] == 1:
                         score += 100
                     elif counts[die] == 2:
@@ -37,7 +38,7 @@ class GameLogic:
                         score += 3000
                     elif counts[die] == 6:
                         score += 4000
-                if die == 2:
+                if die == "2":
                     if counts[die] == 1:
                         score += 0
                     elif counts[die] == 2:
@@ -50,7 +51,7 @@ class GameLogic:
                         score += 600
                     elif counts[die] == 6:
                         score += 800
-                if die == 3:
+                if die == "3":
                     if counts[die] == 1:
                         score += 0
                     elif counts[die] == 2:
@@ -63,7 +64,7 @@ class GameLogic:
                         score += 900
                     elif counts[die] == 6:
                         score += 1200
-                if die == 4:
+                if die == "4":
                     if counts[die] == 1:
                         score += 0
                     elif counts[die] == 2:
@@ -76,7 +77,7 @@ class GameLogic:
                         score += 1200
                     elif counts[die] == 6:
                         score += 1600
-                if die == 5:
+                if die == "5":
                     if counts[die] == 1:
                         score += 50
                     elif counts[die] == 2:
@@ -89,7 +90,7 @@ class GameLogic:
                         score += 1500
                     elif counts[die] == 6:
                         score += 2000
-                if die == 6:
+                if die == "6":
                     if counts[die] == 1:
                         score += 0
                     elif counts[die] == 2:
