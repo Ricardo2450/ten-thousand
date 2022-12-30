@@ -44,3 +44,26 @@ python -m ten_thousand.game in terminal
 
 Test:
 added game function that user can bank point and see total when he quits.
+
+LAB 8 - Class 401d20
+Project: Ten Thousand - version 3
+
+Author: Ricardo Soto-Fabela
+
+Partners:
+Angelos
+
+
+Links and Resources
+Google
+
+Setup
+.venv
+pytest
+pytest-watch
+
+How to initialize/run application
+python -m ten_thousand.game in terminal
+
+Test:
+Got repeat roller file to work. stuck on zilch test
