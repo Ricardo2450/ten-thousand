@@ -1,3 +1,22 @@
+LAB Ten Thousand Bots - Class 401d20
+
+
+Author: Ricardo Soto-Fabela
+
+Links and Resources
+Google
+
+Setup
+.venv
+
+How to initialize/run application
+python bots.py
+
+Set up two Classes to try and beat nervous nellie in the game ten thousand. However, due to my whiteboard.
+focusing my time studying on that instead of make the game run like the canvas instructions. 
+
+
+
 LAB 6 - Class 401d20
 Project: Ten Thousand - version 1
 
